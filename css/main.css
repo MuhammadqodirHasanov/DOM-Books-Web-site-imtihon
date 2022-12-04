@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Rubik;
+    box-sizing: border-box;
+}
+.main-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+.logout-btn {
+    cursor: pointer;
+    background: #0D75FF;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.search-input {
+    width: 650px;
+    border-radius: 30px;
+    border: none;
+    background: #E3E6EB;
+    padding: 15px;
+    padding-left: 50px;
+}
+.search-img {
+    width: 20px;
+    position: absolute;
+    top: 37px;
+    left: 335px;
+}
+.fa-magnifying-glass{
+    color: white;
+
+}
+.search-btn {
+    padding: 10px 20px;
+    background: #0D75FF;
+    border: none;
+    border-radius: 5px;
+}
+.bd {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.291);
+    margin-top: 15px;
+}
+.result-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 35px;
+}
+.ordernews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    background: #A6B0C3;
+    color: white;
+    cursor: pointer;
+}
+.result {
+    padding-left: 300px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 14px;
+}
+.calen {
+    width: 20px;
+}
+.box1-title{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Rubik;
+    padding-bottom: 5px;
+}
+.box1-item {
+    background: #F8FAFD;
+    display: flex;
+    gap: 5px;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+.box1-head {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Rubik;
+}
+.box1-text {
+    font-size: 13px;
+    font-weight: 400;
+}
+.box1-autor {
+    font-size: 13px;
+    font-weight: 400;
+    color: #757881;
+}
+.box1-item div {
+    margin-right: 40px;
+}
+.hero1 {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.291);
+
+}
+.box1-svgs {
+    width: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex {
+    display: flex;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #E5E5E5;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.item {
+    width: 270px;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+}
+.books-img {
+    width: 235px;
+    height: 220px;
+    border-radius: 5px;
+}
+.books-head {
+    width: 220px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    font-weight: 500;
+}
+.books-author {
+    font-size: 13px;
+    font-weight: 500;
+}
+.bookmark {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 25px;
+    background: #FFD80D;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+}
+.moreinfo {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0D75FF;
+    border-radius: 4px;
+    padding: 10px 24px;
+    background: rgba(13, 117, 255, 0.05);
+    border: none;
+    margin-left: 5px;
+}
+.read {
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 100px;
+    background: #75828A;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.id {
+    display: none;
+}
+.center {
+    width: 230px;
+    height: 300px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+.value {
+    padding: 5px 25px;
+    margin-left: 10px;
+    border-radius: 30px;
+    background: rgba(13, 117, 255, 0.09);
+    color: #0D75FF;
+}
+.padding {
+    margin-top: 100px;
+    margin-left: 225px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
